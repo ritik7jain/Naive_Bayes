@@ -75,7 +75,7 @@ plt.xlim(x2.min(),x2.max())
 for i,j in enumerate(np.unique(y_set)):
     plt.scatter(x_set[y_set==j,0],x_set[y_set==j,1],
                 c=ListedColormap(('red','green'))(i),label=j)
-plt.title("KNN (Test set)")    
+plt.title("Naive_Bayes(Test set)")    
 plt.xlabel("age")
 plt.ylabel("salary")
 plt.legend()
